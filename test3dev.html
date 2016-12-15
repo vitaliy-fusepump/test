@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            margin: 0;
+            width:100%;
+            height:100%;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://s3-eu-west-1.amazonaws.com/restack-s3brandecommercedev-5bomzu1qjhyt/vitaliy/bootstraper/landingPageBootstraper.js"></script>
+    <div id="fp-landing-page" style="width:100%; height:100%;"></div>
+    <script>
+            landingPage = new fusepump.LandingPage(73, {
+                appendTo: "fp-landing-page",  // ID of parent element
+                brandUrl: "http://www.purina.co.uk",  // brand.com URL used as fallback
+                firstRetailer: "Amazon"
+            });
+    </script>
+</body>
+</html>
